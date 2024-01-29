@@ -12,7 +12,7 @@
         },
         {
             "name": "eZ Publish dev-team & eZ Community",
-            "homepage": "https://github.com/ezsystems/ezwt"
+            "homepage": "https://github.com/se7enxweb/ezwt"
         }
     ],
     "minimum-stability": "dev",
