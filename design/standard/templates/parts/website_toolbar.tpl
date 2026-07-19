@@ -48,10 +48,7 @@
 {include uri='design:parts/websitetoolbar/logo.tpl'}
 
 <form method="post" action={"content/action"|ezurl}>
-{if is_set($redirect_uri)}
-    <input type="hidden" name="RedirectURIAfterPublish" value="{$redirect_uri|wash}" />
-    <input type="hidden" name="RedirectIfDiscarded" value="{$redirect_uri|wash}" />
-{/if}
+
 {if and( $content_object.can_create, $is_container )}
 <div id="ezwt-creataction" class="ezwt-actiongroup">
 <label for="ezwt-create" class="hide">Create:</label>
@@ -67,35 +64,35 @@
   {/foreach}
   </select>
   {/if}
-  <input type="hidden" name="ContentLanguageCode" value="{ezini( 'RegionalSettings', 'ContentObjectLocale', 'site.ini')}" />
-  <input class="ezwt-input-image" type="image" src={"websitetoolbar/ezwt-icon-create.png"|ezimage} name="NewButton" title="{'Create here'|i18n('design/standard/parts/website_toolbar')}" />
+  <input type="hidden" name="ContentLanguageCode" value="{ezini( 'RegionalSettings', 'ContentObjectLocale', 'site.ini')}">
+  <input class="ezwt-input-image" type="image" src={"websitetoolbar/ezwt-icon-create.png"|ezimage} name="NewButton" title="{'Create here'|i18n('design/standard/parts/website_toolbar')}">
 </div>
 {/if}
 
 <div id="ezwt-currentpageaction" class="ezwt-actiongroup">
 
 {if $content_object.can_edit}
-    <input type="hidden" name="ContentObjectLanguageCode" value="{ezini( 'RegionalSettings', 'ContentObjectLocale', 'site.ini')}" />
-    <input class="ezwt-input-image" type="image" src={"websitetoolbar/ezwt-icon-edit.png"|ezimage} name="EditButton" title="{'Edit'|i18n( 'design/standard/parts/website_toolbar')}{$node_hint}" />
+    <input type="hidden" name="ContentObjectLanguageCode" value="{ezini( 'RegionalSettings', 'ContentObjectLocale', 'site.ini')}">
+    <input class="ezwt-input-image" type="image" src={"websitetoolbar/ezwt-icon-edit.png"|ezimage} name="EditButton" title="{'Edit'|i18n( 'design/standard/parts/website_toolbar')}{$node_hint}">
 {/if}
 
 {if $content_object.can_move}
-    <input class="ezwt-input-image" type="image" src={"websitetoolbar/ezwt-icon-move.png"|ezimage} name="MoveNodeButton" title="{'Move'|i18n('design/standard/parts/website_toolbar')}{$node_hint}" />
+    <input class="ezwt-input-image" type="image" src={"websitetoolbar/ezwt-icon-move.png"|ezimage} name="MoveNodeButton" title="{'Move'|i18n('design/standard/parts/website_toolbar')}{$node_hint}">
 {/if}
 
 {if $content_object.can_remove}
-    <input class="ezwt-input-image" type="image" src={"websitetoolbar/ezwt-icon-remove.png"|ezimage} name="ActionRemove" title="{'Remove'|i18n('design/standard/parts/website_toolbar')}{$node_hint}" />
+    <input class="ezwt-input-image" type="image" src={"websitetoolbar/ezwt-icon-remove.png"|ezimage} name="ActionRemove" title="{'Remove'|i18n('design/standard/parts/website_toolbar')}{$node_hint}">
 {/if}
 
 {if $can_manage_location}
     {if and( $can_manage_location, ne( $current_node.node_id, ezini( 'NodeSettings', 'RootNode','content.ini' ) ), ne( $current_node.node_id, ezini( 'NodeSettings', 'MediaRootNode', 'content.ini' ) ), ne( $current_node.node_id, ezini( 'NodeSettings', 'UserRootNode', 'content.ini' ) ) )}
-        <input class="ezwt-input-image" type="image" src={"websitetoolbar/ezwt-icon-locations.png"|ezimage} name="AddAssignmentButton" title="{'Add locations'|i18n( 'design/standard/parts/website_toolbar' )}" />
+        <input class="ezwt-input-image" type="image" src={"websitetoolbar/ezwt-icon-locations.png"|ezimage} name="AddAssignmentButton" title="{'Add locations'|i18n( 'design/standard/parts/website_toolbar' )}">
     {else}
-        <input class="ezwt-input-image disabled" type="image" src={"websitetoolbar/ezwt-icon-locations-disabled.png"|ezimage} name="AddAssignmentButton" title="{'Add locations'|i18n( 'design/standard/parts/website_toolbar' )}" disabled="disabled" />
+        <input class="ezwt-input-image disabled" type="image" src={"websitetoolbar/ezwt-icon-locations-disabled.png"|ezimage} name="AddAssignmentButton" title="{'Add locations'|i18n( 'design/standard/parts/website_toolbar' )}" disabled="disabled">
     {/if}
 {/if}
 
-<a href={concat( "websitetoolbar/sort/", $current_node.node_id )|ezurl()} title="{'Sorting'|i18n( 'design/standard/parts/website_toolbar' )}"><img src={"websitetoolbar/ezwt-icon-sort.png"|ezimage} alt="{'Sorting'|i18n( 'design/standard/parts/website_toolbar' )}" /></a>
+<a href={concat( "websitetoolbar/sort/", $current_node.node_id )|ezurl()} title="{'Sorting'|i18n( 'design/standard/parts/website_toolbar' )}"><img src={"websitetoolbar/ezwt-icon-sort.png"|ezimage} alt="{'Sorting'|i18n( 'design/standard/parts/website_toolbar' )}"></a>
 
 </div>
 
@@ -111,10 +108,10 @@
     {/if}
 {/foreach}
 
-  <input type="hidden" name="HasMainAssignment" value="1" />
-  <input type="hidden" name="ContentObjectID" value="{$content_object.id}" />
-  <input type="hidden" name="NodeID" value="{$current_node.node_id}" />
-  <input type="hidden" name="ContentNodeID" value="{$current_node.node_id}" />
+  <input type="hidden" name="HasMainAssignment" value="1">
+  <input type="hidden" name="ContentObjectID" value="{$content_object.id}">
+  <input type="hidden" name="NodeID" value="{$current_node.node_id}">
+  <input type="hidden" name="ContentNodeID" value="{$current_node.node_id}">
   {* If a translation exists in the siteaccess' sitelanguagelist use default_language, otherwise let user select language to base translation on. *}
   {def $avail_languages = $content_object.available_languages
        $default_language = $content_object.default_language}
@@ -123,10 +120,10 @@
   {else}
     {set $content_object_language_code = ''}
   {/if}
-  <input type="hidden" name="ContentObjectLanguageCode" value="{$content_object_language_code}" />
+  <input type="hidden" name="ContentObjectLanguageCode" value="{$content_object_language_code}">
 
 {if ezini( 'SiteSettings', 'AdditionalLoginFormActionURL' )}{* has_access_to_limitation('user', 'login', hash('SiteAccess', '<!-- SiteAccessName -->')) *}
-    <a href="{ezini( 'SiteSettings', 'AdditionalLoginFormActionURL' )|explode('user/login')[0]}{$current_node.url_alias}" target="_blank" title="{'Go to admin interface.'|i18n( 'design/standard/parts/website_toolbar' )}"><img src={"websitetoolbar/ezwt-icon-admin.png"|ezimage} alt="{'Go to admin interface.'|i18n( 'design/standard/parts/website_toolbar' )}" /></a>
+    <a href="{ezini( 'SiteSettings', 'AdditionalLoginFormActionURL' )|explode('user/login')[0]}{$current_node.url_alias}" target="_blank" title="{'Go to admin interface.'|i18n( 'design/standard/parts/website_toolbar' )}"><img src={"websitetoolbar/ezwt-icon-admin.png"|ezimage} alt="{'Go to admin interface.'|i18n( 'design/standard/parts/website_toolbar' )}"></a>
 {/if}
 
 </div>
@@ -142,17 +139,17 @@
 
 {if $odf_import_access}
 <form method="post" action={"/ezodf/import/"|ezurl} class="right">
-  <input type="hidden" name="ImportType" value="replace" />
-  <input type="hidden" name="NodeID" value="{$current_node.node_id}" />
-  <input type="hidden" name="ObjectID" value="{$content_object.id}" />
-  <input type="image" class="ezwt-input-image" src={"websitetoolbar/ezwt-icon-replace.png"|ezimage} name="ReplaceAction" title="{'Replace'|i18n('design/standard/parts/website_toolbar')}" />
+  <input type="hidden" name="ImportType" value="replace">
+  <input type="hidden" name="NodeID" value="{$current_node.node_id}">
+  <input type="hidden" name="ObjectID" value="{$content_object.id}">
+  <input type="image" class="ezwt-input-image" src={"websitetoolbar/ezwt-icon-replace.png"|ezimage} name="ReplaceAction" title="{'Replace'|i18n('design/standard/parts/website_toolbar')}">
 </form>
 {/if}
 {if $odf_export_access}
 <form method="post" action={"/ezodf/export/"|ezurl} class="right">
-  <input type="hidden" name="NodeID" value="{$current_node.node_id}" />
-  <input type="hidden" name="ObjectID" value="{$content_object.id}" />
-  <input type="image" class="ezwt-input-image" src={"websitetoolbar/ezwt-icon-export.png"|ezimage} name="ExportAction" title="{'Export'|i18n('design/standard/parts/website_toolbar')}" />
+  <input type="hidden" name="NodeID" value="{$current_node.node_id}">
+  <input type="hidden" name="ObjectID" value="{$content_object.id}">
+  <input type="image" class="ezwt-input-image" src={"websitetoolbar/ezwt-icon-export.png"|ezimage} name="ExportAction" title="{'Export'|i18n('design/standard/parts/website_toolbar')}">
 </form>
 {/if}
 
@@ -160,9 +157,9 @@
             $odf_hide_container_classes|contains( $content_object.content_class.identifier )|not(),
                 $odf_import_access )}
 <form method="post" action={"/ezodf/import/"|ezurl} class="right">
-  <input type="hidden" name="NodeID" value="{$current_node.node_id}" />
-  <input type="hidden" name="ObjectID" value="{$content_object.id}" />
-  <input type="image" class="ezwt-input-image" src={"websitetoolbar/ezwt-icon-import.png"|ezimage} name="ImportAction" title="{'Import'|i18n('design/standard/parts/website_toolbar')}" />
+  <input type="hidden" name="NodeID" value="{$current_node.node_id}">
+  <input type="hidden" name="ObjectID" value="{$content_object.id}">
+  <input type="image" class="ezwt-input-image" src={"websitetoolbar/ezwt-icon-import.png"|ezimage} name="ImportAction" title="{'Import'|i18n('design/standard/parts/website_toolbar')}">
 </form>
 {/if}
 
