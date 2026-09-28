@@ -51,7 +51,7 @@
 
 {if and( $content_object.can_create, $is_container )}
 <div id="ezwt-creataction" class="ezwt-actiongroup">
-<label for="ezwt-create" class="hide">Create:</label>
+<label for="ezwt-create" class="hide">{'Create:'|i18n( 'design/standard/parts/website_toolbar' )}</label>
 {def $can_create_class_list = ezcreateclasslistgroups( $content_object.can_create_class_list )}
   {if $can_create_class_list|count()}
   <select name="ClassID" id="ezwt-create">

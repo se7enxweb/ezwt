@@ -5,23 +5,23 @@
     <name>design/admin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Jahr</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Monat</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation>Tag</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished"></translation>
+        <translation>Stunde</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished"></translation>
+        <translation>Minute</translation>
     </message>
 </context>
 <context>
@@ -35,26 +35,26 @@
     <name>design/ezdemo/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Jahr</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Monat</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation>Tag</translation>
     </message>
     <message>
         <source>Show calendar to select a date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kalender zur Datumsauswahl anzeigen.</translation>
     </message>
 </context>
 <context>
     <name>design/standard/content/datatype</name>
     <message>
         <source>Second</source>
-        <translation type="unfinished"></translation>
+        <translation>Sekunde</translation>
     </message>
 </context>
 <context>
@@ -85,35 +85,35 @@
     </message>
     <message>
         <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den Inhalt dieses Entwurfs veröffentlichen. Damit wird dieser Entwurf die veröffentlichte Version dieses Objekt.</translation>
     </message>
     <message>
         <source>Store draft</source>
-        <translation type="unfinished"></translation>
+        <translation>Entwurf speichern</translation>
     </message>
     <message>
         <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den Inhalt des derzeitigen Entwurfs speichern und mit der Bearbeitung fortfahren. Benutzen Sie diese Schaltfläche regelmäßig, um Ihre Arbeit zu speichern.</translation>
     </message>
     <message>
         <source>Store draft and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Entwurf speichern und beenden</translation>
     </message>
     <message>
         <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den aktuellen Entwurf speichern und den Bearbeiten-Modus verlassen. Verwenden Sie dieses, wenn Sie später an diesem Entwurf weiterarbeiten wollen.</translation>
     </message>
     <message>
         <source>Discard draft</source>
-        <translation type="unfinished"></translation>
+        <translation>Entwurf verwerfen</translation>
     </message>
     <message>
         <source>Are you sure you want to discard the draft?</source>
-        <translation type="unfinished"></translation>
+        <translation>Sind Sie sicher, dass Sie den Entwurf verwerfen wollen?</translation>
     </message>
     <message>
         <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
-        <translation type="unfinished"></translation>
+        <translation>Den aktuellen Entwurf verwerfen. Dies wird auch die zum Entwurf gehörende Übersetzungen löschen, wenn welche vorhanden sind.</translation>
     </message>
 </context>
 <context>
@@ -183,7 +183,7 @@
     </message>
     <message>
         <source>Toggle menu link type edit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bearbeitung des Menü-Linktyps umschalten.</translation>
     </message>
     <message>
         <source>Edit</source>
@@ -191,7 +191,11 @@
     </message>
     <message>
         <source>Go to admin interface.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zur Administrationsoberfläche wechseln.</translation>
+    </message>
+    <message>
+        <source>Create:</source>
+        <translation>Erstellen:</translation>
     </message>
 </context>
 <context>
@@ -326,7 +330,7 @@
     </message>
     <message>
         <source>Path String</source>
-        <translation type="unfinished"></translation>
+        <translation>Pfad</translation>
     </message>
 </context>
 </TS>
