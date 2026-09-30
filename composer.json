@@ -1,6 +1,6 @@
 {
     "name": "se7enxweb/ezwt",
-    "description": "eZ Publish Legacy website toolbar extension. Great for editing small to medium sized website content by untrained end users.",
+    "description": "Exponential Legacy website toolbar extension. Great for editing small to medium sized website content by untrained end users.",
     "type": "ezpublish-legacy-extension",
     "license": "GPL-2.0-or-later",
     "authors": [
