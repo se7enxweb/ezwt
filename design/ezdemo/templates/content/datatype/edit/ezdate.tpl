@@ -2,9 +2,17 @@
 
 {ezscript_require( 'ezjsc::yui2' )}
 {ezcss_require( concat( '/', $base.yui2, 'calendar/assets/calendar.css' ) )}
+{* With Exponential UI: its calendar, and the page configuration it reads (front-end designs do not load the admin's list) *}
+{if ezini( 'ExtensionSettings', 'ActiveExtensions' )|contains( 'expui' )}
+{exp_config()}
+{ezscript_require( array( 'ezjsc::jquery', 'exp::core::shared', 'exp::datepicker' ) )}
+{ezcss_require( array( 'exp/core.css', 'exp/datepicker.css' ) )}
+{/if}
 
 <script type="text/javascript">
 (function() {ldelim}
+    // Exponential UI's calendar (exp::datepicker) is on the page: YUI's is not loaded
+    if ( window.Exp && window.Exp.datepicker ) {ldelim} return; {rdelim}
     YUILoader.addModule({ldelim}
         name: 'datepicker',
         type: 'js',
