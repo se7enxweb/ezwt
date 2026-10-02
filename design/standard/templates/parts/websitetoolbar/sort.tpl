@@ -1,7 +1,7 @@
 {set scope=global persistent_variable=hash('left_menu', false(),
                                            'extra_menu', false(),
                                            'show_path', true())}
-{ezscript_require( array( 'ezjsc::yui3', 'ezjsc::yui3io', 'ezwtsortdd.js' ) )}
+{ezscript_require( array( 'ezjsc::jquery', 'ezjsc::jqueryio', 'ezwtsortdd.js' ) )}
 {*
   Drag and drop script inited in the bottom of this template!
 *}

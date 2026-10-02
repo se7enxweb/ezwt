@@ -1,34 +1,8 @@
-{def $base = ezini('eZJSCore', 'LocalScriptBasePath', 'ezjscore.ini')}
-
-{ezscript_require( 'ezjsc::yui2' )}
-{ezcss_require( concat( '/', $base.yui2, 'calendar/assets/calendar.css' ) )}
-{* With Exponential UI: its calendar, and the page configuration it reads (front-end designs do not load the admin's list) *}
-{if ezini( 'ExtensionSettings', 'ActiveExtensions' )|contains( 'expui' )}
+{* The calendar of the icon below: Exponential UI's exp::datepicker (defines showDatePicker()), with the
+   page configuration it reads; front-end designs do not load the admin's script list *}
 {exp_config()}
 {ezscript_require( array( 'ezjsc::jquery', 'exp::core::shared', 'exp::datepicker' ) )}
 {ezcss_require( array( 'exp/core.css', 'exp/datepicker.css' ) )}
-{/if}
-
-<script type="text/javascript">
-(function() {ldelim}
-    // Exponential UI's calendar (exp::datepicker) is on the page: YUI's is not loaded
-    if ( window.Exp && window.Exp.datepicker ) {ldelim} return; {rdelim}
-    YUILoader.addModule({ldelim}
-        name: 'datepicker',
-        type: 'js',
-        fullpath: '{"javascript/ezdatepicker.js"|ezdesign( 'no' )}',
-        requires: ["calendar"],
-        after: ["calendar"],
-        skinnable: false
-    {rdelim});
-
-    YUILoader.require(["datepicker"]);
-
-    // Load the files using the insert() method.
-    var options = [];
-    YUILoader.insert(options, "js");
-{rdelim})();
-</script>
 
 {default attribute_base=ContentObjectAttribute}
 <div class="block">
