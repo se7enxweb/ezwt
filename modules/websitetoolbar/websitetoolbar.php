@@ -24,6 +24,5 @@
 // ## END COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
 //
 
-eZExecution::cleanExit();
-
-?>
+// The code is in extension/ezwt/classes/runnable/views/websitetoolbar/websitetoolbar.php (#207); this file is the entry point.
+return \Exponential\View\Extension\Ezwt\Websitetoolbar\Websitetoolbar::main( __FILE__, get_defined_vars() );

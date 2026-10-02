@@ -1,0 +1,89 @@
+<?php
+/**
+ * The code of extension/ezwt/modules/websitetoolbar/sort.php, moved into a class (#207 stage 1). The file extension/ezwt/modules/websitetoolbar/sort.php is one call to it.
+ * Guide: doc/bc/6.0/cli_cronjob_view_abstractions.md
+ */
+
+namespace Exponential\View\Extension\Ezwt\Websitetoolbar
+{
+
+class Sort extends \Exponential\Runnable\ModuleView
+{
+    public function run( array $scope )
+    {
+        // the including function's variables ($Params, $Module, $cli, ...)
+        foreach ( array_keys( $scope ) as $__name )
+            if ( $__name !== 'this' && $__name !== 'scope' )
+                ${$__name} = &$scope[$__name];
+        unset( $__name );
+
+        $nodeID = isset( $Params['NodeID'] ) ? (int) $Params['NodeID'] : 0;
+        $Result = array();
+        $node   = false;
+        $viewParameters = array( 'offset' => $Params['Offset'],
+                                 'year' => $Params['Year'],
+                                 'month' => $Params['Month'],
+                                 'day' => $Params['Day'],
+                                 'namefilter' => false );
+
+        if ( isset( $Params['UserParameters'] ) )
+        {
+            $viewParameters = array_merge( $viewParameters, $Params['UserParameters'] );
+        }
+
+        if ( $nodeID !== 0 )
+        {
+            $node = \eZContentObjectTreeNode::fetch( $nodeID );
+        }
+
+        if ( !$node instanceof \eZContentObjectTreeNode )
+        {
+            $Result['content'] = \ezpI18n::tr( 'design/standard/websitetoolbar/sort', 'Invalid or missing parameter: %parameter', null, array( '%parameter' => 'NodeID' ) );
+            return $this->viewResult( isset( $Result ) ? $Result : null,  $Result );
+        }
+
+        $tpl = \eZTemplate::factory();
+        $tpl->setVariable( 'node', $node );
+        $tpl->setVariable( 'view_parameters', $viewParameters );
+        $tpl->setVariable( 'persistent_variable', false );
+
+        $parents = $node->attribute( 'path' );
+
+        $path = array();
+        $titlePath = array();
+        foreach ( $parents as $parent )
+        {
+            $path[] = array( 'text' => $parent->attribute( 'name' ),
+                             'url' => '/content/view/full/' . $parent->attribute( 'node_id' ),
+                             'url_alias' => $parent->attribute( 'url_alias' ),
+                             'node_id' => $parent->attribute( 'node_id' ) );
+        }
+
+        $titlePath = $path;
+        $path[] = array( 'text' => $node->attribute( 'name' ),
+                         'url' => false,
+                         'url_alias' => false,
+                         'node_id' => $node->attribute( 'node_id' ) );
+
+        $titlePath[] = array( 'text' => $node->attribute( 'name' ),
+                              'url' => false,
+                              'url_alias' => false );
+
+        $tpl->setVariable( 'node_path', $path );
+
+
+        $Result['content'] = $tpl->fetch( 'design:parts/websitetoolbar/sort.tpl' );
+        $Result['path'] = $path;
+        $Result['title_path'] = $titlePath;
+
+        $contentInfoArray = array();
+        $contentInfoArray['persistent_variable'] = $tpl->variable( 'persistent_variable' );
+        $Result['content_info'] = $contentInfoArray;
+
+        return $this->viewResult( isset( $Result ) ? $Result : null,  $Result );
+
+        return $this->viewResult( isset( $Result ) ? $Result : null, null );
+    }
+}
+
+}
