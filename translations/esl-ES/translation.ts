@@ -5,23 +5,23 @@
     <name>design/admin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Año</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Mes</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation>Día</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished"></translation>
+        <translation>Hora</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished"></translation>
+        <translation>Minuto</translation>
     </message>
 </context>
 <context>
@@ -35,26 +35,26 @@
     <name>design/ezdemo/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Año</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Mes</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation>Día</translation>
     </message>
     <message>
         <source>Show calendar to select a date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar el calendario para seleccionar una fecha.</translation>
     </message>
 </context>
 <context>
     <name>design/standard/content/datatype</name>
     <message>
         <source>Second</source>
-        <translation type="unfinished"></translation>
+        <translation>Segundo</translation>
     </message>
 </context>
 <context>
@@ -66,10 +66,6 @@
     <message>
         <source>Manage versions</source>
         <translation>Gestionar versiones</translation>
-    </message>
-    <message>
-        <source>Store and exit</source>
-        <translation type="obsolete">Guardar y salir</translation>
     </message>
     <message>
         <source>Preview</source>
@@ -115,13 +111,13 @@
         <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
         <translation>Descartar el borrador que está siendo editado. Esto también borrará las traducciónes pertenecientes al borrador (si las hay).</translation>
     </message>
+    <message>
+        <source>Store and exit</source>
+        <translation type="obsolete">Guardar y salir</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/content/view/versionview</name>
-    <message>
-        <source>Manage versions</source>
-        <translation type="obsolete">Gestionar versiones</translation>
-    </message>
     <message>
         <source>Edit</source>
         <translation>Editar</translation>
@@ -130,16 +126,16 @@
         <source>Publish</source>
         <translation>Publicar</translation>
     </message>
+    <message>
+        <source>Manage versions</source>
+        <translation type="obsolete">Gestionar versiones</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/parts/website_toolbar</name>
     <message>
         <source>Create here</source>
         <translation>Crear aquí</translation>
-    </message>
-    <message>
-        <source>Edit: %node_name [%class_name]</source>
-        <translation type="obsolete">Editar: %node_name [%class_name]</translation>
     </message>
     <message>
         <source>Move</source>
@@ -182,16 +178,24 @@
         <translation>Editar estado del objeto</translation>
     </message>
     <message>
-        <source>Toggle menu link type edit.</source>
-        <translation>Alternar menú de edición de tipos de enlace.</translation>
-    </message>
-    <message>
         <source>Edit</source>
         <translation>Editar</translation>
     </message>
     <message>
         <source>Go to admin interface.</source>
         <translation>Ir al sitio de administración.</translation>
+    </message>
+    <message>
+        <source>Toggle menu link type edit.</source>
+        <translation>Alternar menú de edición de tipos de enlace.</translation>
+    </message>
+    <message>
+        <source>Create:</source>
+        <translation>Crear:</translation>
+    </message>
+    <message>
+        <source>Edit: %node_name [%class_name]</source>
+        <translation type="obsolete">Editar: %node_name [%class_name]</translation>
     </message>
 </context>
 <context>
@@ -225,10 +229,6 @@
         <translation>Tipo</translation>
     </message>
     <message>
-        <source>Modifier</source>
-        <translation type="obsolete">Modificador</translation>
-    </message>
-    <message>
         <source>Modified</source>
         <translation>Modificado</translation>
     </message>
@@ -243,10 +243,6 @@
     <message>
         <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
         <translation>No estás autorizado para actualizar las prioridades debido a que no tienes permisos de edición &lt;%node_name&gt;.</translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation type="obsolete">Desconocido</translation>
     </message>
     <message>
         <source>The current item does not contain any sub items.</source>
@@ -330,7 +326,15 @@
     </message>
     <message>
         <source>Path String</source>
-        <translation type="unfinished"></translation>
+        <translation>Ruta</translation>
+    </message>
+    <message>
+        <source>Modifier</source>
+        <translation type="obsolete">Modificador</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation type="obsolete">Desconocido</translation>
     </message>
 </context>
 </TS>
