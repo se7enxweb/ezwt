@@ -1,7 +1,7 @@
 {* The calendar of the icon below: Exponential UI's exp::datepicker (defines showDatePicker()), with the
    page configuration it reads; front-end designs do not load the admin's script list *}
 {exp_config()}
-{ezscript_require( array( 'ezjsc::jquery', 'exp::core::shared', 'exp::datepicker' ) )}
+{ezscript_require( array( 'ezjsc::jquery', 'exp::core::shared', 'exp::datepicker', 'ezwt_datepicker.js' ) )}
 {ezcss_require( array( 'exp/core.css', 'exp/datepicker.css' ) )}
 
 {default attribute_base=ContentObjectAttribute}
@@ -28,7 +28,7 @@
 <input id="{$id_base}_day" class="ezcc-{$attribute.object.content_class.identifier} ezcca-{$attribute.object.content_class.identifier}_{$attribute.contentclass_attribute_identifier}" type="text" name="{$attribute_base}_datetime_day_{$attribute.id}" size="3" value="{section show=$attribute.content.is_valid}{$attribute.content.day}{/section}" />
 </div>
 <div class="element">
-<img class="datepicker-icon" src={"calendar_icon.png"|ezimage} id="{$attribute_base}_datetime_cal_{$attribute.id}" width="24" height="28" onclick="showDatePicker( '{$attribute_base}', '{$attribute.id}', 'datetime' );" style="cursor: pointer;" />
+<img class="datepicker-icon" src={"calendar_icon.png"|ezimage} id="{$attribute_base}_datetime_cal_{$attribute.id}" width="24" height="28" data-ezwt-datepicker="datetime" data-ezwt-datepicker-base="{$attribute_base|wash}" data-ezwt-datepicker-id="{$attribute.id}" style="cursor: pointer;" />
 <div id="{$attribute_base}_datetime_cal_container_{$attribute.id}" style="display: none; position: absolute;"></div>
 &nbsp;
 &nbsp;

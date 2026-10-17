@@ -100,6 +100,11 @@ var eZWTSortDD = (function ($) {
     };
 
     ret.init = function () {
+        // once only: the file starts itself on the sort page (below), and older templates call init() as well
+        if (ret.started) {
+            return;
+        }
+        ret.started = true;
         $(function () {
             setupSortChangeEvent();
             if (document.getElementById('ezwt-sort-field').value == 8) {
@@ -111,3 +116,10 @@ var eZWTSortDD = (function ($) {
     };
     return ret;
 })(jQuery);
+
+// the sort page (websitetoolbar/sort) starts itself, without an inline script in the template
+jQuery(function () {
+    if (document.getElementById('ezwt-sort-form')) {
+        eZWTSortDD.init();
+    }
+});

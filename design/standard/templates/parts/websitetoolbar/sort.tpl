@@ -2,9 +2,7 @@
                                            'extra_menu', false(),
                                            'show_path', true())}
 {ezscript_require( array( 'ezjsc::jquery', 'ezjsc::jqueryio', 'ezwtsortdd.js' ) )}
-{*
-  Drag and drop script inited in the bottom of this template!
-*}
+{* ezwtsortdd.js starts the drag and drop on this page itself *}
 <div class="border-box">
 <div class="border-tl"><div class="border-tr"><div class="border-tc"></div></div></div>
 <div class="border-ml"><div class="border-mr"><div class="border-mc float-break">
@@ -202,7 +200,3 @@
 </div></div></div>
 <div class="border-bl"><div class="border-br"><div class="border-bc"></div></div></div>
 </div>
-
-<script type="text/javascript">
-eZWTSortDD.init();
-</script>
