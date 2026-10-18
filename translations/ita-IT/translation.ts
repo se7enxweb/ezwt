@@ -5,23 +5,23 @@
     <name>design/admin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Anno</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Mese</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation>Giorno</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished"></translation>
+        <translation>Ora</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished"></translation>
+        <translation>Minuto</translation>
     </message>
 </context>
 <context>
@@ -35,26 +35,26 @@
     <name>design/ezdemo/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Anno</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Mese</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation>Giorno</translation>
     </message>
     <message>
         <source>Show calendar to select a date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra il calendario per selezionare una data.</translation>
     </message>
 </context>
 <context>
     <name>design/standard/content/datatype</name>
     <message>
         <source>Second</source>
-        <translation type="unfinished"></translation>
+        <translation>Secondo</translation>
     </message>
 </context>
 <context>
@@ -89,19 +89,19 @@
     </message>
     <message>
         <source>Store draft</source>
-        <translation>Registra la bozza</translation>
+        <translation>Salva bozza</translation>
     </message>
     <message>
         <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
-        <translation>Registra i contenuti della bozza che viene modificata e continua a modificarla. Usa questo pulsante per salvare periodicamente il tuo lavoro mentre modifichi.</translation>
+        <translation>Salva i contenuti della bozza che viene modificata e continua a modificarla. Usa questo pulsante per salvare periodicamente il tuo lavoro mentre modifichi.</translation>
     </message>
     <message>
         <source>Store draft and exit</source>
-        <translation>Registra la bozza ed esci</translation>
+        <translation>Salva bozza ed esci</translation>
     </message>
     <message>
         <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
-        <translation>Registra la bozza che viene modificata ed esci dalla modalità di modifica. Usa questo pulsante per uscire dal tuo lavoro e tornare in seguito per continuare.</translation>
+        <translation>Salva la bozza che viene modificata ed esci dalla modalità di modifica. Usa questo pulsante per uscire dal tuo lavoro e tornare in seguito per continuare.</translation>
     </message>
     <message>
         <source>Discard draft</source>
@@ -193,6 +193,10 @@
         <source>Toggle menu link type edit.</source>
         <translation>Attiva/disattiva la modifica del tipo di menu link.</translation>
     </message>
+    <message>
+        <source>Create:</source>
+        <translation>Crea:</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/websitetoolbar/sort</name>
@@ -238,7 +242,7 @@
     </message>
     <message>
         <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
-        <translation>Non ti è permesso aggiornare le priorità perchè non hai i permessi di modifica di &lt;%node_name&gt;.</translation>
+        <translation>Non ti è permesso aggiornare le priorità perché non hai i permessi di modifica di &lt;%node_name&gt;.</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -258,7 +262,7 @@
     </message>
     <message>
         <source>You cannot update the priorities because you do not have permission to edit the current item or because a non-priority sorting method is used.</source>
-        <translation>Non puoi aggiornare le priorità perchè non hai i permessi di modifica dell&apos;elemento attuale o perchè è stato usato un metodo di ordinaento non prioritario.</translation>
+        <translation>Non puoi aggiornare le priorità perché non hai i permessi di modifica dell&apos;elemento attuale o perché è stato usato un metodo di ordinaento non prioritario.</translation>
     </message>
     <message>
         <source>Sorting</source>
@@ -282,7 +286,7 @@
     </message>
     <message>
         <source>You cannot set the sorting method for the current location because you do not have permission to edit the current item.</source>
-        <translation>Non puoi impostare il metodo di ordinamento perchè non hai i permessi di modifica dell&apos;elemento attuale.</translation>
+        <translation>Non puoi impostare il metodo di ordinamento perché non hai i permessi di modifica dell&apos;elemento attuale.</translation>
     </message>
     <message>
         <source>Use these controls to set the sorting method for the sub items of the current location.</source>

@@ -5,23 +5,23 @@
     <name>design/admin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Godina</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Mjesec</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation>Dan</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished"></translation>
+        <translation>Sat</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished"></translation>
+        <translation>Minuta</translation>
     </message>
 </context>
 <context>
@@ -35,33 +35,33 @@
     <name>design/ezdemo/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Godina</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Mjesec</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation>Dan</translation>
     </message>
     <message>
         <source>Show calendar to select a date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikažite kalendar za odabir datuma.</translation>
     </message>
 </context>
 <context>
     <name>design/standard/content/datatype</name>
     <message>
         <source>Second</source>
-        <translation type="unfinished"></translation>
+        <translation>Sekunda</translation>
     </message>
 </context>
 <context>
     <name>design/standard/content/edit</name>
     <message>
         <source>Send for publishing</source>
-        <translation>Pošalji na objavu</translation>
+        <translation>Pošalji na objavljivanje</translation>
     </message>
     <message>
         <source>Manage versions</source>
@@ -69,11 +69,11 @@
     </message>
     <message>
         <source>Preview</source>
-        <translation>Pregled</translation>
+        <translation>Pretpregled</translation>
     </message>
     <message>
         <source>Translate from</source>
-        <translation>Prevedi sa</translation>
+        <translation>Prevedi s</translation>
     </message>
     <message>
         <source>Translate</source>
@@ -81,23 +81,23 @@
     </message>
     <message>
         <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
-        <translation>Objavi sadržaj skice koja se trenutno uređuje. Skica će postati objavljena verzija objekta.</translation>
+        <translation>Objavite sadržaj skice koju uređujete. Skica će postati objavljena verzija objekta.</translation>
     </message>
     <message>
         <source>Store draft</source>
-        <translation>Pohrani skicu</translation>
+        <translation>Spremi skicu</translation>
     </message>
     <message>
         <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
-        <translation>Pohrani sadržaj skice koja se trenutno uređuje i nastavi s uređivanjem. Koristite ovaj gumb da bi periodički spremili izmjene za vrijeme uređivanja.</translation>
+        <translation>Spremite sadržaj skice koju uređujete i nastavite s uređivanjem. Ovim gumbom povremeno spremajte svoj rad tijekom uređivanja.</translation>
     </message>
     <message>
         <source>Store draft and exit</source>
-        <translation>Pohrani skicu i izađi</translation>
+        <translation>Spremi skicu i izađi</translation>
     </message>
     <message>
         <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
-        <translation>Pohrani skicu koja se uređuje i izađi iz uređivanja. Koristite ovu opciju kada želite pohraniti trenutnu verziju skice koju ćete naknadno nastaviti uređivati.</translation>
+        <translation>Spremite skicu koju uređujete i izađite iz načina uređivanja. Upotrijebite ovo kada želite prekinuti rad i kasnije nastaviti.</translation>
     </message>
     <message>
         <source>Discard draft</source>
@@ -109,7 +109,7 @@
     </message>
     <message>
         <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
-        <translation>Odbaci skicu koja se trenutno uređuje. Ovo će ujedno ukloniti i sve eventualne prijevode koji pripadaju skici.</translation>
+        <translation>Odbacite skicu koju uređujete. Time će se ukloniti i prijevodi koji pripadaju skici (ako postoje).</translation>
     </message>
 </context>
 <context>
@@ -127,7 +127,7 @@
     <name>design/standard/parts/website_toolbar</name>
     <message>
         <source>Create here</source>
-        <translation>Kreiraj ovdje</translation>
+        <translation>Stvori ovdje</translation>
     </message>
     <message>
         <source>Move</source>
@@ -163,7 +163,7 @@
     </message>
     <message>
         <source>About</source>
-        <translation>Info</translation>
+        <translation>O sustavu</translation>
     </message>
     <message>
         <source>Edit object states</source>
@@ -175,30 +175,34 @@
     </message>
     <message>
         <source>Go to admin interface.</source>
-        <translation>Otiđi u administracijsko sučelje.</translation>
+        <translation>Prijeđite u administracijsko sučelje.</translation>
     </message>
     <message>
         <source>Toggle menu link type edit.</source>
-        <translation>Uključi/isključi mogućnost uređivanja linkova u glavnom iznorniku.</translation>
+        <translation>Uključite ili isključite uređivanje vrste poveznice izbornika.</translation>
+    </message>
+    <message>
+        <source>Create:</source>
+        <translation>Stvori:</translation>
     </message>
 </context>
 <context>
     <name>design/standard/websitetoolbar/sort</name>
     <message>
         <source>Sub items [%children_count]</source>
-        <translation>Podelementi [%children_count]</translation>
+        <translation>Podstavke [%children_count]</translation>
     </message>
     <message>
         <source>Show 10 items per page.</source>
-        <translation>Prikaži 10 stavaka po stranici.</translation>
+        <translation>Prikaži 10 stavki po stranici.</translation>
     </message>
     <message>
         <source>Show 50 items per page.</source>
-        <translation>Prikaži 50 stavaka po stranici.</translation>
+        <translation>Prikaži 50 stavki po stranici.</translation>
     </message>
     <message>
         <source>Show 25 items per page.</source>
-        <translation>Prikaži 25 stavaka po stranici.</translation>
+        <translation>Prikaži 25 stavki po stranici.</translation>
     </message>
     <message>
         <source>Priority</source>
@@ -218,19 +222,19 @@
     </message>
     <message>
         <source>Section</source>
-        <translation>Sekcija</translation>
+        <translation>Odjeljak</translation>
     </message>
     <message>
         <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the &quot;Update priorities&quot; button to apply the changes.</source>
-        <translation>Koristite polja za prioritet kako bi kontrolirali poredak elemenata. Možete koristiti negativne i pozitivne cijele brojeve. Kliknite na &quot;Ažuriraj prioritete&quot; za pohranu prioriteta.</translation>
+        <translation>Poljima prioriteta određujete redoslijed kojim se stavke prikazuju. Možete koristiti pozitivne i negativne cijele brojeve. Kliknite gumb &quot;Ažuriraj prioritete&quot; da biste primijenili promjene.</translation>
     </message>
     <message>
         <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
-        <translation>Ne možete mijenjati prioritete jer nemate dozvolu uređivanja  &lt;%node_name&gt;.</translation>
+        <translation>Nije vam dopušteno ažurirati prioritete jer nemate dopuštenje za uređivanje &lt;%node_name&gt;.</translation>
     </message>
     <message>
         <source>The current item does not contain any sub items.</source>
-        <translation>Trenutna stavka nema podređenih stavki.</translation>
+        <translation>Trenutačna stavka nema podstavki.</translation>
     </message>
     <message>
         <source>Update priorities</source>
@@ -238,11 +242,11 @@
     </message>
     <message>
         <source>Apply changes to the priorities of the items in the list above.</source>
-        <translation>Primijeni izmjene prioriteta u listi iznad.</translation>
+        <translation>Primijenite promjene prioriteta stavki na gornjem popisu.</translation>
     </message>
     <message>
         <source>You cannot update the priorities because you do not have permission to edit the current item or because a non-priority sorting method is used.</source>
-        <translation>Ne možete ažurirati prioritete jer nemate dozvolu za uređivanje trenutnog sadržaja ili se ne koristi sortiranje po prioritetu.</translation>
+        <translation>Prioritete ne možete ažurirati jer nemate dopuštenje za uređivanje trenutačne stavke ili zato što se koristi način poretka koji nije prema prioritetu.</translation>
     </message>
     <message>
         <source>Sorting</source>
@@ -266,11 +270,11 @@
     </message>
     <message>
         <source>You cannot set the sorting method for the current location because you do not have permission to edit the current item.</source>
-        <translation>Ne možete promijeniti kriterij po kojem se sortiraju podelementi ove lokacije jer nemate potrebne dozvole.</translation>
+        <translation>Ne možete postaviti način poretka za trenutačnu lokaciju jer nemate dopuštenje za uređivanje trenutačne stavke.</translation>
     </message>
     <message>
         <source>Use these controls to set the sorting method for the sub items of the current location.</source>
-        <translation>Koristite ove opcije da bi primijenili kriterij po kojem se sortiraju podelementi trenutne lokacije.</translation>
+        <translation>Pomoću ovih kontrola postavite način poretka podstavki trenutačne lokacije.</translation>
     </message>
     <message>
         <source>Descending</source>
@@ -282,35 +286,35 @@
     </message>
     <message>
         <source>Set</source>
-        <translation>Primijeni</translation>
+        <translation>Postavi</translation>
     </message>
     <message>
         <source>Invalid or missing parameter: %parameter</source>
-        <translation>Neispravan ili nedostajući parametar: %parameter</translation>
+        <translation>Nevažeći parametar ili parametar nedostaje: %parameter</translation>
     </message>
     <message>
         <source>Use these checkboxes to select items for removal. Click the &quot;Remove selected&quot; button to  remove the selected items.</source>
-        <translation>Koristite ove opcije za odabir stavki za uklanjanje. Kliknite na &quot;Ukloni odabrano&quot; da bi ste uklonili odabrane stavke.</translation>
+        <translation>Ovim potvrdnim okvirima odaberite stavke za uklanjanje. Kliknite gumb &quot;Ukloni odabrano&quot; kako biste uklonili odabrane stavke.</translation>
     </message>
     <message>
         <source>You do not have permission to remove this item.</source>
-        <translation>Nemate ovlasti za uklanjanje ove stavke.</translation>
+        <translation>Nemate dopuštenje za uklanjanje ove stavke.</translation>
     </message>
     <message>
         <source>Remove the selected items from the list above.</source>
-        <translation>Ukloni odabrane stavke iz gornjeg popisa.</translation>
+        <translation>Uklonite odabrane stavke s gornjeg popisa.</translation>
     </message>
     <message>
         <source>You do not have permission to remove any of the items from the list above.</source>
-        <translation>Nemate ovlasti za uklanjanje stavki iz gornjeg popisa.</translation>
+        <translation>Nemate dopuštenje za uklanjanje nijedne stavke s gornjeg popisa.</translation>
     </message>
     <message>
         <source>Automatic update</source>
-        <translation>Automatsko osvježavanje</translation>
+        <translation>Automatsko ažuriranje</translation>
     </message>
     <message>
         <source>Path String</source>
-        <translation>Putanja</translation>
+        <translation>Niz putanje</translation>
     </message>
 </context>
 </TS>

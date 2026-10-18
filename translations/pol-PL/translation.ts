@@ -1,71 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0">
+<TS version="2.0" language="pl_PL">
 <context>
     <name>design/admin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Rok</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Miesiąc</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation>Dzień</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished"></translation>
+        <translation>Godzina</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished"></translation>
+        <translation>Minuta</translation>
     </message>
 </context>
 <context>
     <name>design/admin/node/view/full</name>
     <message>
         <source>Remove selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Usunąć zaznaczone</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Rok</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Miesiąc</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation>Dzień</translation>
     </message>
     <message>
         <source>Show calendar to select a date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokazać kalendarz, aby wybrać datę.</translation>
     </message>
 </context>
 <context>
     <name>design/standard/content/datatype</name>
     <message>
         <source>Second</source>
-        <translation type="unfinished"></translation>
+        <translation>Sekunda</translation>
     </message>
 </context>
 <context>
     <name>design/standard/content/edit</name>
     <message>
         <source>Send for publishing</source>
-        <translation>Wyślij do publikacji</translation>
+        <translation>Wysłać do publikacji</translation>
     </message>
     <message>
         <source>Manage versions</source>
-        <translation>Zarządzaj wersjami</translation>
+        <translation>Zarządzać wersjami</translation>
     </message>
     <message>
         <source>Store and exit</source>
@@ -77,43 +77,43 @@
     </message>
     <message>
         <source>Translate from</source>
-        <translation>Przetłumacz z</translation>
+        <translation>Przetłumaczyć z</translation>
     </message>
     <message>
         <source>Translate</source>
-        <translation>Przetłumacz</translation>
+        <translation>Przetłumaczyć</translation>
     </message>
     <message>
         <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Opublikować zawartość edytowanej wersji roboczej. Wersja robocza stanie się opublikowaną wersją obiektu.</translation>
     </message>
     <message>
         <source>Store draft</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapisać wersję roboczą</translation>
     </message>
     <message>
         <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapisać zawartość edytowanej wersji roboczej i kontynuować edycję. Tego przycisku warto używać regularnie podczas edycji, aby zapisywać postęp pracy.</translation>
     </message>
     <message>
         <source>Store draft and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapisać wersję roboczą i zakończyć</translation>
     </message>
     <message>
         <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zapisać edytowaną wersję roboczą i zakończyć edycję. Przydatne, gdy pracę trzeba przerwać i dokończyć później.</translation>
     </message>
     <message>
         <source>Discard draft</source>
-        <translation type="unfinished"></translation>
+        <translation>Odrzucić wersję roboczą</translation>
     </message>
     <message>
         <source>Are you sure you want to discard the draft?</source>
-        <translation type="unfinished"></translation>
+        <translation>Czy na pewno odrzucić wersję roboczą?</translation>
     </message>
     <message>
         <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
-        <translation type="unfinished"></translation>
+        <translation>Odrzucić edytowaną wersję roboczą. Zostaną także usunięte tłumaczenia należące do tej wersji roboczej (jeśli istnieją).</translation>
     </message>
 </context>
 <context>
@@ -124,18 +124,18 @@
     </message>
     <message>
         <source>Edit</source>
-        <translation>Edytuj</translation>
+        <translation>Edytować</translation>
     </message>
     <message>
         <source>Publish</source>
-        <translation>Opublikuj</translation>
+        <translation>Opublikować</translation>
     </message>
 </context>
 <context>
     <name>design/standard/parts/website_toolbar</name>
     <message>
         <source>Create here</source>
-        <translation>Utwórz tutaj</translation>
+        <translation>Utworzyć tutaj</translation>
     </message>
     <message>
         <source>Edit: %node_name [%class_name]</source>
@@ -143,31 +143,31 @@
     </message>
     <message>
         <source>Move</source>
-        <translation>Przenieś</translation>
+        <translation>Przenieść</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Usuń</translation>
+        <translation>Usunąć</translation>
     </message>
     <message>
         <source>Add locations</source>
-        <translation>Dodaj lokalizacje</translation>
+        <translation>Dodać lokalizacje</translation>
     </message>
     <message>
         <source>Sorting</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortowanie</translation>
     </message>
     <message>
         <source>Replace</source>
-        <translation>Zastąp</translation>
+        <translation>Zastąpić</translation>
     </message>
     <message>
         <source>Export</source>
-        <translation>Eksportuj</translation>
+        <translation>Eksport</translation>
     </message>
     <message>
         <source>Import</source>
-        <translation>Importuj</translation>
+        <translation>Zaimportować</translation>
     </message>
     <message>
         <source>Documentation</source>
@@ -175,46 +175,50 @@
     </message>
     <message>
         <source>About</source>
-        <translation>O</translation>
+        <translation>Informacje</translation>
     </message>
     <message>
         <source>Edit object states</source>
-        <translation type="unfinished"></translation>
+        <translation>Edytować stany obiektu</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">Edytuj</translation>
+        <translation>Edytować</translation>
     </message>
     <message>
         <source>Go to admin interface.</source>
-        <translation type="unfinished"></translation>
+        <translation>Przejść do interfejsu administracyjnego.</translation>
     </message>
     <message>
         <source>Toggle menu link type edit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Przełączyć edycję typu linku menu.</translation>
+    </message>
+    <message>
+        <source>Create:</source>
+        <translation>Utworzyć:</translation>
     </message>
 </context>
 <context>
     <name>design/standard/websitetoolbar/sort</name>
     <message>
         <source>Sub items [%children_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>Elementy podrzędne [%children_count]</translation>
     </message>
     <message>
         <source>Show 10 items per page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokazywać 10 elementów na stronie.</translation>
     </message>
     <message>
         <source>Show 50 items per page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokazywać 50 elementów na stronie.</translation>
     </message>
     <message>
         <source>Show 25 items per page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokazywać 25 elementów na stronie.</translation>
     </message>
     <message>
         <source>Priority</source>
-        <translation type="unfinished"></translation>
+        <translation>Priorytet</translation>
     </message>
     <message>
         <source>Name</source>
@@ -226,7 +230,7 @@
     </message>
     <message>
         <source>Modified</source>
-        <translation>Zmodyfikowany</translation>
+        <translation>Zmodyfikowano</translation>
     </message>
     <message>
         <source>Section</source>
@@ -234,11 +238,11 @@
     </message>
     <message>
         <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the &quot;Update priorities&quot; button to apply the changes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pola priorytetu określają kolejność wyświetlania elementów. Można używać zarówno dodatnich, jak i ujemnych liczb całkowitych. Aby zastosować zmiany, należy kliknąć przycisk „Zaktualizować priorytety”.</translation>
     </message>
     <message>
         <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Brak uprawnień do aktualizacji priorytetów z powodu braku uprawnień do edycji &lt;%node_name&gt;.</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -246,47 +250,47 @@
     </message>
     <message>
         <source>The current item does not contain any sub items.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bieżący element nie zawiera elementów podrzędnych.</translation>
     </message>
     <message>
         <source>Update priorities</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaktualizować priorytety</translation>
     </message>
     <message>
         <source>Apply changes to the priorities of the items in the list above.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zastosować zmiany priorytetów elementów na powyższej liście.</translation>
     </message>
     <message>
         <source>You cannot update the priorities because you do not have permission to edit the current item or because a non-priority sorting method is used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można zaktualizować priorytetów z powodu braku uprawnień do edycji bieżącego elementu lub z powodu użycia metody sortowania innej niż według priorytetu.</translation>
     </message>
     <message>
         <source>Sorting</source>
-        <translation type="unfinished"></translation>
+        <translation>Sortowanie</translation>
     </message>
     <message>
         <source>Class identifier</source>
-        <translation type="unfinished"></translation>
+        <translation>Identyfikator klasy</translation>
     </message>
     <message>
         <source>Class name</source>
-        <translation type="unfinished"></translation>
+        <translation>Nazwa klasy</translation>
     </message>
     <message>
         <source>Depth</source>
-        <translation type="unfinished"></translation>
+        <translation>Głębokość</translation>
     </message>
     <message>
         <source>Published</source>
-        <translation>Opublikowany</translation>
+        <translation>Opublikowano</translation>
     </message>
     <message>
         <source>You cannot set the sorting method for the current location because you do not have permission to edit the current item.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nie można ustawić metody sortowania bieżącej lokalizacji z powodu braku uprawnień do edycji bieżącego elementu.</translation>
     </message>
     <message>
         <source>Use these controls to set the sorting method for the sub items of the current location.</source>
-        <translation type="unfinished"></translation>
+        <translation>Te elementy sterujące ustawiają metodę sortowania elementów podrzędnych bieżącej lokalizacji.</translation>
     </message>
     <message>
         <source>Descending</source>
@@ -298,35 +302,35 @@
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished"></translation>
+        <translation>Ustawić</translation>
     </message>
     <message>
         <source>Invalid or missing parameter: %parameter</source>
-        <translation type="unfinished"></translation>
+        <translation>Nieprawidłowy lub brakujący parametr: %parameter</translation>
     </message>
     <message>
         <source>Use these checkboxes to select items for removal. Click the &quot;Remove selected&quot; button to  remove the selected items.</source>
-        <translation type="unfinished"></translation>
+        <translation>Za pomocą tych pól wyboru można zaznaczyć elementy do usunięcia. Kliknięcie przycisku „Usunąć zaznaczone” usuwa zaznaczone elementy.</translation>
     </message>
     <message>
         <source>You do not have permission to remove this item.</source>
-        <translation type="unfinished"></translation>
+        <translation>Brak uprawnień do usunięcia tego elementu.</translation>
     </message>
     <message>
         <source>Remove the selected items from the list above.</source>
-        <translation type="unfinished"></translation>
+        <translation>Usunąć zaznaczone elementy z powyższej listy.</translation>
     </message>
     <message>
         <source>You do not have permission to remove any of the items from the list above.</source>
-        <translation type="unfinished"></translation>
+        <translation>Brak uprawnień do usunięcia któregokolwiek elementu z powyższej listy.</translation>
     </message>
     <message>
         <source>Automatic update</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatyczna aktualizacja</translation>
     </message>
     <message>
         <source>Path String</source>
-        <translation type="unfinished"></translation>
+        <translation>Ciąg ścieżki</translation>
     </message>
 </context>
 </TS>
