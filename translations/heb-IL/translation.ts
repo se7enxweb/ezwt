@@ -187,6 +187,10 @@
         <source>Create:</source>
         <translation>יצירה:</translation>
     </message>
+    <message>
+        <source>Help center</source>
+        <translation>מרכז העזרה</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/websitetoolbar/sort</name>

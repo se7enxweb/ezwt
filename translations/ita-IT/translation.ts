@@ -193,6 +193,10 @@
         <source>Toggle menu link type edit.</source>
         <translation>Attiva/disattiva la modifica del tipo di menu link.</translation>
     </message>
+    <message>
+        <source>Help center</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/standard/websitetoolbar/sort</name>

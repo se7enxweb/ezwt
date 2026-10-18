@@ -181,6 +181,10 @@
         <source>Toggle menu link type edit.</source>
         <translation>Uključi/isključi mogućnost uređivanja linkova u glavnom iznorniku.</translation>
     </message>
+    <message>
+        <source>Help center</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/standard/websitetoolbar/sort</name>

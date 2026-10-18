@@ -181,6 +181,10 @@
         <source>Go to admin interface.</source>
         <translation>管理画面へ。</translation>
     </message>
+    <message>
+        <source>Help center</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>design/standard/websitetoolbar/sort</name>
