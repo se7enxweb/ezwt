@@ -185,6 +185,10 @@
         <source>Create:</source>
         <translation>Stvori:</translation>
     </message>
+    <message>
+        <source>Help center</source>
+        <translation>Centar za pomoć</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/websitetoolbar/sort</name>

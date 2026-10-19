@@ -197,6 +197,10 @@
         <source>Create:</source>
         <translation>Aanmaken:</translation>
     </message>
+    <message>
+        <source>Help center</source>
+        <translation>Helpcentrum</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/websitetoolbar/sort</name>

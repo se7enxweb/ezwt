@@ -197,6 +197,10 @@
         <source>Create:</source>
         <translation>Crea:</translation>
     </message>
+    <message>
+        <source>Help center</source>
+        <translation>Centro assistenza</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/websitetoolbar/sort</name>

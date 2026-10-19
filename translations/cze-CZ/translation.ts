@@ -197,6 +197,10 @@
         <source>Create:</source>
         <translation>Vytvořit:</translation>
     </message>
+    <message>
+        <source>Help center</source>
+        <translation>Centrum nápovědy</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/websitetoolbar/sort</name>

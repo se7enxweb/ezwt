@@ -197,6 +197,10 @@
         <source>Go to admin interface.</source>
         <translation>Ir para interface administrativa</translation>
     </message>
+    <message>
+        <source>Help center</source>
+        <translation>Central de ajuda</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/websitetoolbar/sort</name>

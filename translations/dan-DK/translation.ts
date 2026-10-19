@@ -197,6 +197,10 @@
         <source>Edit: %node_name [%class_name]</source>
         <translation type="obsolete">Redigér: %node_name [%class_name]</translation>
     </message>
+    <message>
+        <source>Help center</source>
+        <translation>Hjælpecenter</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/websitetoolbar/sort</name>

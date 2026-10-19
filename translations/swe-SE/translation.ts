@@ -197,6 +197,10 @@
         <source>Create:</source>
         <translation>Skapa:</translation>
     </message>
+    <message>
+        <source>Help center</source>
+        <translation>Hjälpcenter</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/websitetoolbar/sort</name>
