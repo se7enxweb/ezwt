@@ -193,6 +193,10 @@
         <source>Toggle menu link type edit.</source>
         <translation>(Dés)activer le mode modification du menu.</translation>
     </message>
+    <message>
+        <source>Help center</source>
+        <translation>Centre d&apos;aide</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/websitetoolbar/sort</name>

@@ -188,6 +188,10 @@
         <source>Create:</source>
         <translation>Creare:</translation>
     </message>
+    <message>
+        <source>Help center</source>
+        <translation>Centrum auxilii</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/websitetoolbar/sort</name>

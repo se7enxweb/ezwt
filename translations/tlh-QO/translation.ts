@@ -188,6 +188,10 @@
         <source>Create:</source>
         <translation>yIchenmoH:</translation>
     </message>
+    <message>
+        <source>Help center</source>
+        <translation>QaH botlh</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/websitetoolbar/sort</name>

@@ -112,6 +112,10 @@
         <source>Edit object states</source>
         <translation>Edit object states</translation>
     </message>
+    <message>
+        <source>Help center</source>
+        <translation>Help center</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/content/edit</name>
