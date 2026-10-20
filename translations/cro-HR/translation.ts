@@ -5,23 +5,23 @@
     <name>design/admin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Godina</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Mjesec</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation>Dan</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished"></translation>
+        <translation>Sat</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished"></translation>
+        <translation>Minuta</translation>
     </message>
 </context>
 <context>
@@ -35,26 +35,26 @@
     <name>design/ezdemo/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Godina</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Mjesec</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation>Dan</translation>
     </message>
     <message>
         <source>Show calendar to select a date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži kalendar za odabir datuma.</translation>
     </message>
 </context>
 <context>
     <name>design/standard/content/datatype</name>
     <message>
         <source>Second</source>
-        <translation type="unfinished"></translation>
+        <translation>Sekunda</translation>
     </message>
 </context>
 <context>
@@ -111,6 +111,10 @@
         <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
         <translation>Odbaci skicu koja se trenutno uređuje. Ovo će ujedno ukloniti i sve eventualne prijevode koji pripadaju skici.</translation>
     </message>
+    <message>
+        <source>Store and exit</source>
+        <translation>Spremi i izađi</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/content/view/versionview</name>
@@ -121,6 +125,10 @@
     <message>
         <source>Publish</source>
         <translation>Objavi</translation>
+    </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Upravljanje verzijama</translation>
     </message>
 </context>
 <context>
@@ -182,8 +190,16 @@
         <translation>Uključi/isključi mogućnost uređivanja linkova u glavnom iznorniku.</translation>
     </message>
     <message>
+        <source>Create:</source>
+        <translation>Stvori:</translation>
+    </message>
+    <message>
         <source>Help center</source>
-        <translation type="unfinished"></translation>
+        <translation>Centar za pomoć</translation>
+    </message>
+    <message>
+        <source>Edit: %node_name [%class_name]</source>
+        <translation>Uređivanje: %node_name [%class_name]</translation>
     </message>
 </context>
 <context>
@@ -315,6 +331,10 @@
     <message>
         <source>Path String</source>
         <translation>Putanja</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Nepoznato</translation>
     </message>
 </context>
 </TS>

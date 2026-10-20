@@ -5,56 +5,56 @@
     <name>design/admin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>År</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Månad</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation>Dag</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished"></translation>
+        <translation>Timme</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished"></translation>
+        <translation>Minut</translation>
     </message>
 </context>
 <context>
     <name>design/admin/node/view/full</name>
     <message>
         <source>Remove selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort markerade</translation>
     </message>
 </context>
 <context>
     <name>design/ezdemo/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>År</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Månad</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation>Dag</translation>
     </message>
     <message>
         <source>Show calendar to select a date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa kalendern för att välja ett datum.</translation>
     </message>
 </context>
 <context>
     <name>design/standard/content/datatype</name>
     <message>
         <source>Second</source>
-        <translation type="unfinished"></translation>
+        <translation>Sekund</translation>
     </message>
 </context>
 <context>
@@ -66,10 +66,6 @@
     <message>
         <source>Manage versions</source>
         <translation>Hantera versioner</translation>
-    </message>
-    <message>
-        <source>Store and exit</source>
-        <translation type="obsolete">Spara och stäng</translation>
     </message>
     <message>
         <source>Preview</source>
@@ -85,43 +81,43 @@
     </message>
     <message>
         <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
-        <translation type="unfinished"></translation>
+        <translation>Publicera det redigerade utkastets innehåll. Utkastet kommer bli den publicerade versionen av objektet.</translation>
     </message>
     <message>
         <source>Store draft</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara utkast</translation>
     </message>
     <message>
         <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara innehållet av utkastet som håller på att bli redigerat och forsätt redigera utkastet. Använd den här knappen ofta för att spara tid lagd på att redigera.</translation>
     </message>
     <message>
         <source>Store draft and exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara och stäng utkast</translation>
     </message>
     <message>
         <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara utkastet som redigeras och stäng från redigeringsläget. Använd när du behöver stänga ditt arbete och fortsätta vid senare tillfälle.</translation>
     </message>
     <message>
         <source>Discard draft</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasta utkast</translation>
     </message>
     <message>
         <source>Are you sure you want to discard the draft?</source>
-        <translation type="unfinished"></translation>
+        <translation>Är du säker på att du vill kasta utkastet?</translation>
     </message>
     <message>
         <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasta utkastet som redigeras. Detta tar också bort översättningarna som hör till utkastet (om några).</translation>
+    </message>
+    <message>
+        <source>Store and exit</source>
+        <translation>Spara och avsluta</translation>
     </message>
 </context>
 <context>
     <name>design/standard/content/view/versionview</name>
-    <message>
-        <source>Manage versions</source>
-        <translation type="obsolete">Hantera versioner</translation>
-    </message>
     <message>
         <source>Edit</source>
         <translation>Redigera</translation>
@@ -130,16 +126,16 @@
         <source>Publish</source>
         <translation>Publicera</translation>
     </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Hantera versioner</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/parts/website_toolbar</name>
     <message>
         <source>Create here</source>
         <translation>Skapa här</translation>
-    </message>
-    <message>
-        <source>Edit: %node_name [%class_name]</source>
-        <translation type="obsolete">Redigera: %node_name [%class_name]</translation>
     </message>
     <message>
         <source>Move</source>
@@ -155,7 +151,7 @@
     </message>
     <message>
         <source>Sorting</source>
-        <translation type="unfinished"></translation>
+        <translation>Sorterig</translation>
     </message>
     <message>
         <source>Replace</source>
@@ -179,46 +175,54 @@
     </message>
     <message>
         <source>Edit object states</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera objektstatus</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished">Redigera</translation>
+        <translation>Redigera</translation>
     </message>
     <message>
         <source>Go to admin interface.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gå till administrationsgränssnittet.</translation>
     </message>
     <message>
         <source>Toggle menu link type edit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla redigering av menylänktyp.</translation>
+    </message>
+    <message>
+        <source>Create:</source>
+        <translation>Skapa:</translation>
     </message>
     <message>
         <source>Help center</source>
-        <translation type="unfinished"></translation>
+        <translation>Hjälpcenter</translation>
+    </message>
+    <message>
+        <source>Edit: %node_name [%class_name]</source>
+        <translation>Redigera: %node_name [%class_name]</translation>
     </message>
 </context>
 <context>
     <name>design/standard/websitetoolbar/sort</name>
     <message>
         <source>Sub items [%children_count]</source>
-        <translation type="unfinished"></translation>
+        <translation>Underobjekt [%children_count]</translation>
     </message>
     <message>
         <source>Show 10 items per page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa 10 objekt per sida.</translation>
     </message>
     <message>
         <source>Show 50 items per page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa 50 objekt per sida.</translation>
     </message>
     <message>
         <source>Show 25 items per page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa 25 objekt per sida.</translation>
     </message>
     <message>
         <source>Priority</source>
-        <translation type="unfinished"></translation>
+        <translation>Prioritet</translation>
     </message>
     <message>
         <source>Name</source>
@@ -238,47 +242,43 @@
     </message>
     <message>
         <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the &quot;Update priorities&quot; button to apply the changes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd prioritetsfälten för att styra i vilken ordning objekten visas. Du kan använda både positiva och negativa heltal. Klicka på knappen &quot;Uppdatera prioriteter&quot; för att verkställa ändringarna.</translation>
     </message>
     <message>
         <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation type="obsolete">Okänd</translation>
+        <translation>Du får inte uppdatera prioriteterna eftersom du saknar behörighet att redigera &lt;%node_name&gt;.</translation>
     </message>
     <message>
         <source>The current item does not contain any sub items.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det aktuella objektet har inga underobjekt.</translation>
     </message>
     <message>
         <source>Update priorities</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdatera prioriteringar</translation>
     </message>
     <message>
         <source>Apply changes to the priorities of the items in the list above.</source>
-        <translation type="unfinished"></translation>
+        <translation>Verkställ ändringarna av prioriteterna för objekten i listan ovan.</translation>
     </message>
     <message>
         <source>You cannot update the priorities because you do not have permission to edit the current item or because a non-priority sorting method is used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du kan inte uppdatera prioriteterna eftersom du saknar behörighet att redigera det aktuella objektet eller eftersom en annan sortering än prioritet används.</translation>
     </message>
     <message>
         <source>Sorting</source>
-        <translation type="unfinished"></translation>
+        <translation>Sorterig</translation>
     </message>
     <message>
         <source>Class identifier</source>
-        <translation type="unfinished"></translation>
+        <translation>Klassidentifierare</translation>
     </message>
     <message>
         <source>Class name</source>
-        <translation type="unfinished"></translation>
+        <translation>Klassnamn</translation>
     </message>
     <message>
         <source>Depth</source>
-        <translation type="unfinished"></translation>
+        <translation>Djup</translation>
     </message>
     <message>
         <source>Published</source>
@@ -286,11 +286,11 @@
     </message>
     <message>
         <source>You cannot set the sorting method for the current location because you do not have permission to edit the current item.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du kan inte ändra sorteringsmetod för aktuell plats då du saknar rättigheter att redigera enheten.</translation>
     </message>
     <message>
         <source>Use these controls to set the sorting method for the sub items of the current location.</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd dessa kontroller för att välja sorteringsmetod av underobjekt på nuvarande plats.</translation>
     </message>
     <message>
         <source>Descending</source>
@@ -302,35 +302,39 @@
     </message>
     <message>
         <source>Set</source>
-        <translation type="unfinished"></translation>
+        <translation>Ställ in</translation>
     </message>
     <message>
         <source>Invalid or missing parameter: %parameter</source>
-        <translation type="unfinished"></translation>
+        <translation>Ogiltig eller saknad parameter: %parameter</translation>
     </message>
     <message>
         <source>Use these checkboxes to select items for removal. Click the &quot;Remove selected&quot; button to  remove the selected items.</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd dessa kryssrutor för att välja enheter för borttagning. Klicka på &quot;Ta bort markerade&quot; för att ta bort valda enhter.</translation>
     </message>
     <message>
         <source>You do not have permission to remove this item.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du har inte behörighet att ta bort detta objekt.</translation>
     </message>
     <message>
         <source>Remove the selected items from the list above.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort de markerade objekten från listan ovan.</translation>
     </message>
     <message>
         <source>You do not have permission to remove any of the items from the list above.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du har inte behörighet att ta bort något av objekten i listan ovan.</translation>
     </message>
     <message>
         <source>Automatic update</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatisk uppdatering</translation>
     </message>
     <message>
         <source>Path String</source>
-        <translation type="unfinished"></translation>
+        <translation>Sökväg</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Okänd</translation>
     </message>
 </context>
 </TS>

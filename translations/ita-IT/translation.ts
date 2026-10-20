@@ -5,23 +5,23 @@
     <name>design/admin/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Anno</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Mese</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation>Giorno</translation>
     </message>
     <message>
         <source>Hour</source>
-        <translation type="unfinished"></translation>
+        <translation>Ora</translation>
     </message>
     <message>
         <source>Minute</source>
-        <translation type="unfinished"></translation>
+        <translation>Minuto</translation>
     </message>
 </context>
 <context>
@@ -35,26 +35,26 @@
     <name>design/ezdemo/content/datatype</name>
     <message>
         <source>Year</source>
-        <translation type="unfinished"></translation>
+        <translation>Anno</translation>
     </message>
     <message>
         <source>Month</source>
-        <translation type="unfinished"></translation>
+        <translation>Mese</translation>
     </message>
     <message>
         <source>Day</source>
-        <translation type="unfinished"></translation>
+        <translation>Giorno</translation>
     </message>
     <message>
         <source>Show calendar to select a date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra il calendario per scegliere una data.</translation>
     </message>
 </context>
 <context>
     <name>design/standard/content/datatype</name>
     <message>
         <source>Second</source>
-        <translation type="unfinished"></translation>
+        <translation>Secondo</translation>
     </message>
 </context>
 <context>
@@ -66,10 +66,6 @@
     <message>
         <source>Manage versions</source>
         <translation>Amministra versioni</translation>
-    </message>
-    <message>
-        <source>Store and exit</source>
-        <translation type="obsolete">Registra ed esci</translation>
     </message>
     <message>
         <source>Preview</source>
@@ -115,13 +111,13 @@
         <source>Discard the draft that is being edited. This will also remove the translations that belong to the draft (if any).</source>
         <translation>Annulla la bozza che viene modificata. Ciò eliminerà anche le traduzioni che appartengono alla bozza (se ve ne sono).</translation>
     </message>
+    <message>
+        <source>Store and exit</source>
+        <translation>Salva ed esci</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/content/view/versionview</name>
-    <message>
-        <source>Manage versions</source>
-        <translation type="obsolete">Amministra versioni</translation>
-    </message>
     <message>
         <source>Edit</source>
         <translation>Modifica</translation>
@@ -130,16 +126,16 @@
         <source>Publish</source>
         <translation>Pubblica</translation>
     </message>
+    <message>
+        <source>Manage versions</source>
+        <translation>Gestisci versioni</translation>
+    </message>
 </context>
 <context>
     <name>design/standard/parts/website_toolbar</name>
     <message>
         <source>Create here</source>
         <translation>Crea qui</translation>
-    </message>
-    <message>
-        <source>Edit: %node_name [%class_name]</source>
-        <translation type="obsolete">Modifica: %node_name [%class_name]</translation>
     </message>
     <message>
         <source>Move</source>
@@ -194,8 +190,16 @@
         <translation>Attiva/disattiva la modifica del tipo di menu link.</translation>
     </message>
     <message>
+        <source>Create:</source>
+        <translation>Crea:</translation>
+    </message>
+    <message>
         <source>Help center</source>
-        <translation type="unfinished"></translation>
+        <translation>Centro assistenza</translation>
+    </message>
+    <message>
+        <source>Edit: %node_name [%class_name]</source>
+        <translation>Modifica: %node_name [%class_name]</translation>
     </message>
 </context>
 <context>
@@ -243,10 +247,6 @@
     <message>
         <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
         <translation>Non ti è permesso aggiornare le priorità perchè non hai i permessi di modifica di &lt;%node_name&gt;.</translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation type="obsolete">Sconosciuto</translation>
     </message>
     <message>
         <source>The current item does not contain any sub items.</source>
@@ -331,6 +331,10 @@
     <message>
         <source>Path String</source>
         <translation>Stringa percorso</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Sconosciuto</translation>
     </message>
 </context>
 </TS>
