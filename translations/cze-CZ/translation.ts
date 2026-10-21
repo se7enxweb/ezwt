@@ -61,7 +61,7 @@
     <name>design/standard/content/edit</name>
     <message>
         <source>Send for publishing</source>
-        <translation>Oeslat pro publikování</translation>
+        <translation>Odeslat k publikování</translation>
     </message>
     <message>
         <source>Manage versions</source>
@@ -120,7 +120,7 @@
     <name>design/standard/content/view/versionview</name>
     <message>
         <source>Edit</source>
-        <translation>Editovat</translation>
+        <translation>Upravit</translation>
     </message>
     <message>
         <source>Publish</source>
@@ -147,7 +147,7 @@
     </message>
     <message>
         <source>Add locations</source>
-        <translation>Přidat lokace</translation>
+        <translation>Přidat umístění</translation>
     </message>
     <message>
         <source>Sorting</source>
@@ -171,7 +171,7 @@
     </message>
     <message>
         <source>About</source>
-        <translation>O programu</translation>
+        <translation>O systému</translation>
     </message>
     <message>
         <source>Edit object states</source>
@@ -187,7 +187,7 @@
     </message>
     <message>
         <source>Toggle menu link type edit.</source>
-        <translation>Přepnout úpravu typu odkazu v menu.</translation>
+        <translation>Přepnout úpravu typu odkazu v nabídce.</translation>
     </message>
     <message>
         <source>Create:</source>
@@ -226,7 +226,7 @@
     </message>
     <message>
         <source>Name</source>
-        <translation>Jméno</translation>
+        <translation>Název</translation>
     </message>
     <message>
         <source>Type</source>
@@ -241,8 +241,8 @@
         <translation>Sekce</translation>
     </message>
     <message>
-        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the &quot;Update priorities&quot; button to apply the changes.</source>
-        <translation>Pomocí polí priority určete pořadí, ve kterém se položky zobrazují. Můžete použít kladná i záporná celá čísla. Změny použijete kliknutím na tlačítko &quot;Aktualizovat priority&quot;.</translation>
+        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the "Update priorities" button to apply the changes.</source>
+        <translation>Pořadí, ve kterém se položky zobrazují, určíte pomocí polí priority. Můžete použít kladná i záporná celá čísla. Změny použijete kliknutím na tlačítko "Aktualizovat priority".</translation>
     </message>
     <message>
         <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
@@ -262,7 +262,7 @@
     </message>
     <message>
         <source>You cannot update the priorities because you do not have permission to edit the current item or because a non-priority sorting method is used.</source>
-        <translation>Priority nemůžete aktualizovat, protože nemáte oprávnění upravovat aktuální položku nebo je použit způsob řazení jiný než podle priority.</translation>
+        <translation>Priority nemůžete aktualizovat, protože nemáte oprávnění upravovat aktuální položku nebo se používá jiný způsob řazení než podle priority.</translation>
     </message>
     <message>
         <source>Sorting</source>
@@ -309,8 +309,8 @@
         <translation>Neplatný nebo chybějící parametr: %parameter</translation>
     </message>
     <message>
-        <source>Use these checkboxes to select items for removal. Click the &quot;Remove selected&quot; button to  remove the selected items.</source>
-        <translation>Pomocí těchto zaškrtávacích políček vyberte položky k odstranění. Kliknutím na tlačítko &quot;Odstranit vybrané&quot; vybrané položky odstraníte.</translation>
+        <source>Use these checkboxes to select items for removal. Click the "Remove selected" button to  remove the selected items.</source>
+        <translation>Pomocí těchto zaškrtávacích políček vyberte položky k odstranění. Kliknutím na tlačítko "Odstranit vybrané" vybrané položky odstraníte.</translation>
     </message>
     <message>
         <source>You do not have permission to remove this item.</source>
@@ -322,7 +322,7 @@
     </message>
     <message>
         <source>You do not have permission to remove any of the items from the list above.</source>
-        <translation>Nemáte oprávnění odstranit žádnou z položek v seznamu výše.</translation>
+        <translation>Nemáte oprávnění odstranit žádnou z položek ze seznamu výše.</translation>
     </message>
     <message>
         <source>Automatic update</source>

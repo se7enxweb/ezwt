@@ -65,19 +65,19 @@
     </message>
     <message>
         <source>Manage versions</source>
-        <translation>Redigér versioner</translation>
+        <translation>Administrer versioner</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation>Vis udkast</translation>
+        <translation>Forhåndsvisning</translation>
     </message>
     <message>
         <source>Translate from</source>
-        <translation>Oversat fra</translation>
+        <translation>Oversæt fra</translation>
     </message>
     <message>
         <source>Translate</source>
-        <translation>Oversat</translation>
+        <translation>Oversæt</translation>
     </message>
     <message>
         <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
@@ -135,7 +135,7 @@
     <name>design/standard/parts/website_toolbar</name>
     <message>
         <source>Create here</source>
-        <translation>Tilføj her</translation>
+        <translation>Opret her</translation>
     </message>
     <message>
         <source>Move</source>
@@ -147,7 +147,7 @@
     </message>
     <message>
         <source>Add locations</source>
-        <translation>Tilføj steder</translation>
+        <translation>Tilføj placeringer</translation>
     </message>
     <message>
         <source>Sorting</source>
@@ -171,7 +171,7 @@
     </message>
     <message>
         <source>About</source>
-        <translation>Omkring</translation>
+        <translation>Om</translation>
     </message>
     <message>
         <source>Edit object states</source>
@@ -234,19 +234,19 @@
     </message>
     <message>
         <source>Modified</source>
-        <translation>ændret</translation>
+        <translation>Ændret</translation>
     </message>
     <message>
         <source>Section</source>
         <translation>Sektion</translation>
     </message>
     <message>
-        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the &quot;Update priorities&quot; button to apply the changes.</source>
-        <translation>Brug prioritetsfelterne til at styre rækkefølgen, som elementerne vises i. Du kan bruge både positive og negative heltal. Klik på knappen &quot;Opdater prioriteter&quot; for at anvende ændringerne.</translation>
+        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the "Update priorities" button to apply the changes.</source>
+        <translation>Brug prioritetsfelterne til at styre den rækkefølge, elementerne vises i. Du kan bruge både positive og negative heltal. Klik på knappen "Opdater prioriteter" for at anvende ændringerne.</translation>
     </message>
     <message>
         <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
-        <translation>Du må ikke opdatere prioriteterne, fordi du ikke har tilladelse til at redigere &lt;%node_name&gt;.</translation>
+        <translation>Du har ikke tilladelse til at opdatere prioriteterne, fordi du ikke har rettighed til at redigere &lt;%node_name&gt;.</translation>
     </message>
     <message>
         <source>The current item does not contain any sub items.</source>
@@ -262,7 +262,7 @@
     </message>
     <message>
         <source>You cannot update the priorities because you do not have permission to edit the current item or because a non-priority sorting method is used.</source>
-        <translation>Du kan ikke opdatere prioriteterne, fordi du ikke har tilladelse til at redigere det aktuelle element, eller fordi der bruges en anden sorteringsmetode end prioritet.</translation>
+        <translation>Du kan ikke opdatere prioriteterne, fordi du ikke har rettighed til at redigere det aktuelle element, eller fordi der bruges en anden sorteringsmetode end prioritet.</translation>
     </message>
     <message>
         <source>Sorting</source>
@@ -294,11 +294,11 @@
     </message>
     <message>
         <source>Descending</source>
-        <translation>Nedadgående</translation>
+        <translation>Faldende</translation>
     </message>
     <message>
         <source>Ascending</source>
-        <translation>Opadgående</translation>
+        <translation>Stigende</translation>
     </message>
     <message>
         <source>Set</source>
@@ -309,8 +309,8 @@
         <translation>Ugyldig eller manglende parameter: %parameter</translation>
     </message>
     <message>
-        <source>Use these checkboxes to select items for removal. Click the &quot;Remove selected&quot; button to  remove the selected items.</source>
-        <translation>Brug disse afkrydsningsfelter til at vælge elementer til fjernelse. Klik på knappen &quot;Fjern valgte&quot; for at  fjerne de valgte elementer.</translation>
+        <source>Use these checkboxes to select items for removal. Click the "Remove selected" button to  remove the selected items.</source>
+        <translation>Brug disse afkrydsningsfelter til at vælge elementer til fjernelse. Klik på knappen "Fjern valgte" for at  fjerne de valgte elementer.</translation>
     </message>
     <message>
         <source>You do not have permission to remove this item.</source>
@@ -318,11 +318,11 @@
     </message>
     <message>
         <source>Remove the selected items from the list above.</source>
-        <translation>Fjern de valgte elementer fra listen ovenfor.</translation>
+        <translation>Fjern de markerede elementer fra listen ovenfor.</translation>
     </message>
     <message>
         <source>You do not have permission to remove any of the items from the list above.</source>
-        <translation>Du har ikke tilladelse til at fjerne nogen af elementerne fra listen ovenfor.</translation>
+        <translation>Du har ikke rettighed til at fjerne nogen af elementerne fra listen ovenfor.</translation>
     </message>
     <message>
         <source>Automatic update</source>

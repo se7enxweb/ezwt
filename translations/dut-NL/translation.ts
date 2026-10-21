@@ -47,7 +47,7 @@
     </message>
     <message>
         <source>Show calendar to select a date.</source>
-        <translation>Kalender tonen om een datum te kiezen.</translation>
+        <translation>Kalender tonen om een datum te selecteren.</translation>
     </message>
 </context>
 <context>
@@ -61,11 +61,11 @@
     <name>design/standard/content/edit</name>
     <message>
         <source>Send for publishing</source>
-        <translation>Verzend voor publicatie</translation>
+        <translation>Ter publicatie verzenden</translation>
     </message>
     <message>
         <source>Manage versions</source>
-        <translation>Beheer versies</translation>
+        <translation>Versies beheren</translation>
     </message>
     <message>
         <source>Preview</source>
@@ -73,7 +73,7 @@
     </message>
     <message>
         <source>Translate from</source>
-        <translation>Vertaal van</translation>
+        <translation>Vertalen vanuit</translation>
     </message>
     <message>
         <source>Translate</source>
@@ -135,7 +135,7 @@
     <name>design/standard/parts/website_toolbar</name>
     <message>
         <source>Create here</source>
-        <translation>Maak hier aan</translation>
+        <translation>Hier aanmaken</translation>
     </message>
     <message>
         <source>Move</source>
@@ -183,11 +183,11 @@
     </message>
     <message>
         <source>Go to admin interface.</source>
-        <translation>Naar de beheerinterface.</translation>
+        <translation>Naar de beheerinterface gaan.</translation>
     </message>
     <message>
         <source>Toggle menu link type edit.</source>
-        <translation>Bewerken van het menulinktype aan/uit.</translation>
+        <translation>Bewerken van het linktype in het menu aan/uit.</translation>
     </message>
     <message>
         <source>Create:</source>
@@ -241,8 +241,8 @@
         <translation>Sectie</translation>
     </message>
     <message>
-        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the &quot;Update priorities&quot; button to apply the changes.</source>
-        <translation>Gebruik de prioriteitsvelden om de volgorde van de items te bepalen. Je kunt zowel positieve als negatieve gehele getallen gebruiken. Klik op de knop &quot;Prioriteiten bijwerken&quot; om de wijzigingen toe te passen.</translation>
+        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the "Update priorities" button to apply the changes.</source>
+        <translation>Gebruik de prioriteitsvelden om de volgorde te bepalen waarin de items verschijnen. Je kunt zowel positieve als negatieve gehele getallen gebruiken. Klik op de knop "Prioriteiten bijwerken" om de wijzigingen toe te passen.</translation>
     </message>
     <message>
         <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
@@ -262,7 +262,7 @@
     </message>
     <message>
         <source>You cannot update the priorities because you do not have permission to edit the current item or because a non-priority sorting method is used.</source>
-        <translation>Je kunt de prioriteiten niet bijwerken, omdat je geen rechten hebt om het huidige item te bewerken of omdat er niet op prioriteit wordt gesorteerd.</translation>
+        <translation>Je kunt de prioriteiten niet bijwerken, omdat je geen rechten hebt om het huidige item te bewerken of omdat er een sorteermethode zonder prioriteit wordt gebruikt.</translation>
     </message>
     <message>
         <source>Sorting</source>
@@ -294,11 +294,11 @@
     </message>
     <message>
         <source>Descending</source>
-        <translation>Oplopend</translation>
+        <translation>Aflopend</translation>
     </message>
     <message>
         <source>Ascending</source>
-        <translation>Aflopend</translation>
+        <translation>Oplopend</translation>
     </message>
     <message>
         <source>Set</source>
@@ -309,8 +309,8 @@
         <translation>Ongeldige of ontbrekende parameter: %parameter</translation>
     </message>
     <message>
-        <source>Use these checkboxes to select items for removal. Click the &quot;Remove selected&quot; button to  remove the selected items.</source>
-        <translation>Gebruik deze selectievakjes om items te selecteren die je wilt verwijderen. Klik op de knop &quot;Selectie verwijderen&quot; om  de geselecteerde items te verwijderen.</translation>
+        <source>Use these checkboxes to select items for removal. Click the "Remove selected" button to  remove the selected items.</source>
+        <translation>Gebruik deze selectievakjes om items te selecteren die je wilt verwijderen. Klik op de knop "Selectie verwijderen" om  de geselecteerde items te verwijderen.</translation>
     </message>
     <message>
         <source>You do not have permission to remove this item.</source>

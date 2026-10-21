@@ -47,7 +47,7 @@
     </message>
     <message>
         <source>Show calendar to select a date.</source>
-        <translation>Visa kalendern för att välja ett datum.</translation>
+        <translation>Visa kalender för att välja ett datum.</translation>
     </message>
 </context>
 <context>
@@ -81,7 +81,7 @@
     </message>
     <message>
         <source>Publish the contents of the draft that is being edited. The draft will become the published version of the object.</source>
-        <translation>Publicera det redigerade utkastets innehåll. Utkastet kommer bli den publicerade versionen av objektet.</translation>
+        <translation>Publicera innehållet i aktuellt utkast. Utkastet blir den nya publicerade versionen av objektet.</translation>
     </message>
     <message>
         <source>Store draft</source>
@@ -89,15 +89,15 @@
     </message>
     <message>
         <source>Store the contents of the draft that is being edited and continue editing. Use this button to periodically save your work while editing.</source>
-        <translation>Spara innehållet av utkastet som håller på att bli redigerat och forsätt redigera utkastet. Använd den här knappen ofta för att spara tid lagd på att redigera.</translation>
+        <translation>Spara innehållet i utkastet och fortsätt redigera det. Använd för att regelbundet spara under redigeringsarbetet.</translation>
     </message>
     <message>
         <source>Store draft and exit</source>
-        <translation>Spara och stäng utkast</translation>
+        <translation>Spara utkast och avsluta</translation>
     </message>
     <message>
         <source>Store the draft that is being edited and exit from edit mode. Use when you need to exit your work and return later to continue.</source>
-        <translation>Spara utkastet som redigeras och stäng från redigeringsläget. Använd när du behöver stänga ditt arbete och fortsätta vid senare tillfälle.</translation>
+        <translation>Spara utkastet som redigeras och lämna redigeringsläget. Använd när du behöver avbryta arbetet och fortsätta senare.</translation>
     </message>
     <message>
         <source>Discard draft</source>
@@ -151,7 +151,7 @@
     </message>
     <message>
         <source>Sorting</source>
-        <translation>Sorterig</translation>
+        <translation>Sortering</translation>
     </message>
     <message>
         <source>Replace</source>
@@ -175,7 +175,7 @@
     </message>
     <message>
         <source>Edit object states</source>
-        <translation>Redigera objektstatus</translation>
+        <translation>Redigera objekttillstånd</translation>
     </message>
     <message>
         <source>Edit</source>
@@ -241,16 +241,16 @@
         <translation>Avsnitt</translation>
     </message>
     <message>
-        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the &quot;Update priorities&quot; button to apply the changes.</source>
-        <translation>Använd prioritetsfälten för att styra i vilken ordning objekten visas. Du kan använda både positiva och negativa heltal. Klicka på knappen &quot;Uppdatera prioriteter&quot; för att verkställa ändringarna.</translation>
+        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the "Update priorities" button to apply the changes.</source>
+        <translation>Använd prioritetsfälten för att styra i vilken ordning objekten visas. Du kan använda både positiva och negativa heltal. Klicka på knappen "Uppdatera prioriteringar" för att tillämpa ändringarna.</translation>
     </message>
     <message>
         <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
-        <translation>Du får inte uppdatera prioriteterna eftersom du saknar behörighet att redigera &lt;%node_name&gt;.</translation>
+        <translation>Du får inte uppdatera prioriteterna eftersom du inte har behörighet att redigera &lt;%node_name&gt;.</translation>
     </message>
     <message>
         <source>The current item does not contain any sub items.</source>
-        <translation>Det aktuella objektet har inga underobjekt.</translation>
+        <translation>Det aktuella objektet innehåller inga underobjekt.</translation>
     </message>
     <message>
         <source>Update priorities</source>
@@ -258,15 +258,15 @@
     </message>
     <message>
         <source>Apply changes to the priorities of the items in the list above.</source>
-        <translation>Verkställ ändringarna av prioriteterna för objekten i listan ovan.</translation>
+        <translation>Tillämpa ändringarna av prioriteterna för objekten i listan ovan.</translation>
     </message>
     <message>
         <source>You cannot update the priorities because you do not have permission to edit the current item or because a non-priority sorting method is used.</source>
-        <translation>Du kan inte uppdatera prioriteterna eftersom du saknar behörighet att redigera det aktuella objektet eller eftersom en annan sortering än prioritet används.</translation>
+        <translation>Du kan inte uppdatera prioriteterna eftersom du inte har behörighet att redigera det aktuella objektet eller eftersom en annan sorteringsmetod än prioritet används.</translation>
     </message>
     <message>
         <source>Sorting</source>
-        <translation>Sorterig</translation>
+        <translation>Sortering</translation>
     </message>
     <message>
         <source>Class identifier</source>
@@ -286,11 +286,11 @@
     </message>
     <message>
         <source>You cannot set the sorting method for the current location because you do not have permission to edit the current item.</source>
-        <translation>Du kan inte ändra sorteringsmetod för aktuell plats då du saknar rättigheter att redigera enheten.</translation>
+        <translation>Du kan inte ange sorteringsmetod för den aktuella platsen eftersom du inte har behörighet att redigera det aktuella objektet.</translation>
     </message>
     <message>
         <source>Use these controls to set the sorting method for the sub items of the current location.</source>
-        <translation>Använd dessa kontroller för att välja sorteringsmetod av underobjekt på nuvarande plats.</translation>
+        <translation>Använd de här kontrollerna för att ange sorteringsmetod för underobjekten på den aktuella platsen.</translation>
     </message>
     <message>
         <source>Descending</source>
@@ -309,12 +309,12 @@
         <translation>Ogiltig eller saknad parameter: %parameter</translation>
     </message>
     <message>
-        <source>Use these checkboxes to select items for removal. Click the &quot;Remove selected&quot; button to  remove the selected items.</source>
-        <translation>Använd dessa kryssrutor för att välja enheter för borttagning. Klicka på &quot;Ta bort markerade&quot; för att ta bort valda enhter.</translation>
+        <source>Use these checkboxes to select items for removal. Click the "Remove selected" button to  remove the selected items.</source>
+        <translation>Använd de här kryssrutorna för att markera objekt som ska tas bort. Klicka på knappen "Ta bort markerade" för att ta bort de markerade objekten.</translation>
     </message>
     <message>
         <source>You do not have permission to remove this item.</source>
-        <translation>Du har inte behörighet att ta bort detta objekt.</translation>
+        <translation>Du har inte behörighet att ta bort det här objektet.</translation>
     </message>
     <message>
         <source>Remove the selected items from the list above.</source>
@@ -322,7 +322,7 @@
     </message>
     <message>
         <source>You do not have permission to remove any of the items from the list above.</source>
-        <translation>Du har inte behörighet att ta bort något av objekten i listan ovan.</translation>
+        <translation>Du har inte behörighet att ta bort något av objekten från listan ovan.</translation>
     </message>
     <message>
         <source>Automatic update</source>
@@ -330,7 +330,7 @@
     </message>
     <message>
         <source>Path String</source>
-        <translation>Sökväg</translation>
+        <translation>Sökvägssträng</translation>
     </message>
     <message>
         <source>Unknown</source>

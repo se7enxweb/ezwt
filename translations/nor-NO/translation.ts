@@ -101,7 +101,7 @@
     </message>
     <message>
         <source>Discard draft</source>
-        <translation>Forkast utkastet</translation>
+        <translation>Forkast utkast</translation>
     </message>
     <message>
         <source>Are you sure you want to discard the draft?</source>
@@ -135,7 +135,7 @@
     <name>design/standard/parts/website_toolbar</name>
     <message>
         <source>Create here</source>
-        <translation>Lag her</translation>
+        <translation>Opprett her</translation>
     </message>
     <message>
         <source>Move</source>
@@ -241,16 +241,16 @@
         <translation>Seksjon</translation>
     </message>
     <message>
-        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the &quot;Update priorities&quot; button to apply the changes.</source>
-        <translation>Bruk prioritetsfeltene til å styre rekkefølgen elementene vises i. Du kan bruke både positive og negative heltall. Klikk på knappen &quot;Oppdater prioriteter&quot; for å ta i bruk endringene.</translation>
+        <source>Use the priority fields to control the order in which the items appear. You can use both positive and negative integers. Click the "Update priorities" button to apply the changes.</source>
+        <translation>Bruk prioritetsfeltene til å styre rekkefølgen elementene vises i. Du kan bruke både positive og negative heltall. Klikk på "Oppdater prioriteter" for å bruke endringene.</translation>
     </message>
     <message>
         <source>You are not allowed to update the priorities because you do not have permission to edit &lt;%node_name&gt;.</source>
-        <translation>Du kan ikke oppdatere prioritetene fordi du ikke har tilgang til å redigere &lt;%node_name&gt;.</translation>
+        <translation>Du kan ikke oppdatere prioritetene fordi du ikke har tillatelse til å redigere &lt;%node_name&gt;.</translation>
     </message>
     <message>
         <source>The current item does not contain any sub items.</source>
-        <translation>Det gjeldende elementet inneholder ingen underelementer.</translation>
+        <translation>Det gjeldende elementet har ingen underelementer.</translation>
     </message>
     <message>
         <source>Update priorities</source>
@@ -258,11 +258,11 @@
     </message>
     <message>
         <source>Apply changes to the priorities of the items in the list above.</source>
-        <translation>Ta i bruk endringene i prioritetene til elementene i listen ovenfor.</translation>
+        <translation>Bruk endringene i prioriteten til elementene i listen over.</translation>
     </message>
     <message>
         <source>You cannot update the priorities because you do not have permission to edit the current item or because a non-priority sorting method is used.</source>
-        <translation>Du kan ikke oppdatere prioritetene fordi du ikke har tilgang til å redigere det gjeldende elementet, eller fordi en sorteringsmetode som ikke er basert på prioritet brukes.</translation>
+        <translation>Du kan ikke oppdatere prioritetene fordi du ikke har tillatelse til å redigere det gjeldende elementet, eller fordi det brukes en sorteringsmetode som ikke er etter prioritet.</translation>
     </message>
     <message>
         <source>Sorting</source>
@@ -309,8 +309,8 @@
         <translation>Ugyldig eller manglende parameter: %parameter</translation>
     </message>
     <message>
-        <source>Use these checkboxes to select items for removal. Click the &quot;Remove selected&quot; button to  remove the selected items.</source>
-        <translation>Bruk avkrysningsboksene til å velge elementer som skal fjernes. Klikk på &quot;Fjern valgte&quot;-knappen for å fjerne de valgte elementene.</translation>
+        <source>Use these checkboxes to select items for removal. Click the "Remove selected" button to  remove the selected items.</source>
+        <translation>Bruk avkrysningsboksene til å velge elementer som skal fjernes. Klikk på "Fjern valgte"-knappen for å fjerne de valgte elementene.</translation>
     </message>
     <message>
         <source>You do not have permission to remove this item.</source>
@@ -318,11 +318,11 @@
     </message>
     <message>
         <source>Remove the selected items from the list above.</source>
-        <translation>Fjern de valgte elementene fra listen ovenfor.</translation>
+        <translation>Fjern de valgte elementene fra listen over.</translation>
     </message>
     <message>
         <source>You do not have permission to remove any of the items from the list above.</source>
-        <translation>Du har ikke tilgang til å fjerne noen av elementene fra listen ovenfor.</translation>
+        <translation>Du har ikke tillatelse til å fjerne noen av elementene fra listen over.</translation>
     </message>
     <message>
         <source>Automatic update</source>
