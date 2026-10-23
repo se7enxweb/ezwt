@@ -113,7 +113,7 @@
     </message>
     <message>
         <source>Store and exit</source>
-        <translation>Zapisz i zakończ</translation>
+        <translation>Zapisać i zakończyć</translation>
     </message>
 </context>
 <context>
@@ -128,7 +128,7 @@
     </message>
     <message>
         <source>Manage versions</source>
-        <translation>Zarządzaj wersjami</translation>
+        <translation>Zarządzać wersjami</translation>
     </message>
 </context>
 <context>
